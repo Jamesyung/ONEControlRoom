@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5DB3571974A3E7925011BF /* libPods-ONEControlRoom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1F917FD1AC36411FF1D548 /* libPods-ONEControlRoom.a */; };
+		EE16AAA11E66C307004BD40C /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16AAA01E66C307004BD40C /* UserNotifications.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EE53B4FD1D86AAA400E163AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53B4F91D86A7A400E163AF /* UIKit.framework */; };
+		EE53B4FE1D86AAAC00E163AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53B4FB1D86A8CC00E163AF /* Foundation.framework */; };
+		EE7018041D867E4500B630DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7018031D867E4500B630DE /* main.m */; };
+		EE7018071D867E4600B630DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7018061D867E4600B630DE /* AppDelegate.m */; };
+		EE70180A1D867E4600B630DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7018091D867E4600B630DE /* ViewController.m */; };
+		EE70180D1D867E4600B630DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70180B1D867E4600B630DE /* Main.storyboard */; };
+		EE70180F1D867E4600B630DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE70180E1D867E4600B630DE /* Assets.xcassets */; };
+		EE7018121D867E4600B630DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7018101D867E4600B630DE /* LaunchScreen.storyboard */; };
+		EE7018201D867EDA00B630DE /* BusinessRegisterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70181B1D867EDA00B630DE /* BusinessRegisterInfo.m */; };
+		EE7018211D867EDA00B630DE /* BusinessWhiteListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70181D1D867EDA00B630DE /* BusinessWhiteListItem.m */; };
+		EE7018221D867EDA00B630DE /* ONEControlRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70181F1D867EDA00B630DE /* ONEControlRoom.m */; };
+		EE7018241D867EE600B630DE /* BusinessModuleWhiteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE7018231D867EE600B630DE /* BusinessModuleWhiteList.plist */; };
+		EE92E3321DD016AB007553E2 /* BusinessHandlerTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92E3311DD016AB007553E2 /* BusinessHandlerTemplate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		503301B558F5784C193C5590 /* Pods-ONEControlRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEControlRoom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONEControlRoom/Pods-ONEControlRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		A46142079635A2B64DAD502C /* Pods-ONEControlRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONEControlRoom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONEControlRoom/Pods-ONEControlRoom.release.xcconfig"; sourceTree = "<group>"; };
+		AC1F917FD1AC36411FF1D548 /* libPods-ONEControlRoom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONEControlRoom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE16AAA01E66C307004BD40C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		EE47F7061EAF25EE00D8F807 /* ONEControlRoomLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONEControlRoomLog.h; sourceTree = "<group>"; };
+		EE53B4F91D86A7A400E163AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE53B4FB1D86A8CC00E163AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE7017FF1D867E4400B630DE /* ONEControlRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONEControlRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7018031D867E4500B630DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7018051D867E4600B630DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE7018061D867E4600B630DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7018081D867E4600B630DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE7018091D867E4600B630DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE70180C1D867E4600B630DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE70180E1D867E4600B630DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7018111D867E4600B630DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7018131D867E4600B630DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE70181A1D867EDA00B630DE /* BusinessRegisterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRegisterInfo.h; sourceTree = "<group>"; };
+		EE70181B1D867EDA00B630DE /* BusinessRegisterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessRegisterInfo.m; sourceTree = "<group>"; };
+		EE70181C1D867EDA00B630DE /* BusinessWhiteListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessWhiteListItem.h; sourceTree = "<group>"; };
+		EE70181D1D867EDA00B630DE /* BusinessWhiteListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessWhiteListItem.m; sourceTree = "<group>"; };
+		EE70181E1D867EDA00B630DE /* ONEControlRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEControlRoom.h; sourceTree = "<group>"; };
+		EE70181F1D867EDA00B630DE /* ONEControlRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEControlRoom.m; sourceTree = "<group>"; };
+		EE7018231D867EE600B630DE /* BusinessModuleWhiteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BusinessModuleWhiteList.plist; sourceTree = "<group>"; };
+		EE92E3301DD016AB007553E2 /* BusinessHandlerTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessHandlerTemplate.h; sourceTree = "<group>"; };
+		EE92E3311DD016AB007553E2 /* BusinessHandlerTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessHandlerTemplate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7017FC1D867E4400B630DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE16AAA11E66C307004BD40C /* UserNotifications.framework in Frameworks */,
+				EE53B4FE1D86AAAC00E163AF /* Foundation.framework in Frameworks */,
+				EE53B4FD1D86AAA400E163AF /* UIKit.framework in Frameworks */,
+				BC5DB3571974A3E7925011BF /* libPods-ONEControlRoom.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC278F0F1FD48A85D61A407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503301B558F5784C193C5590 /* Pods-ONEControlRoom.debug.xcconfig */,
+				A46142079635A2B64DAD502C /* Pods-ONEControlRoom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96107BB16049BC071DD6329F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE16AAA01E66C307004BD40C /* UserNotifications.framework */,
+				EE53B4FB1D86A8CC00E163AF /* Foundation.framework */,
+				EE53B4F91D86A7A400E163AF /* UIKit.framework */,
+				AC1F917FD1AC36411FF1D548 /* libPods-ONEControlRoom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7017F61D867E4400B630DE = {
+			isa = PBXGroup;
+			children = (
+				EE7018011D867E4400B630DE /* ONEControlRoom */,
+				EE7018001D867E4400B630DE /* Products */,
+				96107BB16049BC071DD6329F /* Frameworks */,
+				7FC278F0F1FD48A85D61A407 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7018001D867E4400B630DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7017FF1D867E4400B630DE /* ONEControlRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7018011D867E4400B630DE /* ONEControlRoom */ = {
+			isa = PBXGroup;
+			children = (
+				EE7018191D867EC800B630DE /* Classes */,
+				EE7018051D867E4600B630DE /* AppDelegate.h */,
+				EE7018061D867E4600B630DE /* AppDelegate.m */,
+				EE7018081D867E4600B630DE /* ViewController.h */,
+				EE7018091D867E4600B630DE /* ViewController.m */,
+				EE70180B1D867E4600B630DE /* Main.storyboard */,
+				EE70180E1D867E4600B630DE /* Assets.xcassets */,
+				EE7018101D867E4600B630DE /* LaunchScreen.storyboard */,
+				EE7018131D867E4600B630DE /* Info.plist */,
+				EE7018231D867EE600B630DE /* BusinessModuleWhiteList.plist */,
+				EE7018021D867E4400B630DE /* Supporting Files */,
+			);
+			path = ONEControlRoom;
+			sourceTree = "<group>";
+		};
+		EE7018021D867E4400B630DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7018031D867E4500B630DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7018191D867EC800B630DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE47F7061EAF25EE00D8F807 /* ONEControlRoomLog.h */,
+				EE70181A1D867EDA00B630DE /* BusinessRegisterInfo.h */,
+				EE70181B1D867EDA00B630DE /* BusinessRegisterInfo.m */,
+				EE70181C1D867EDA00B630DE /* BusinessWhiteListItem.h */,
+				EE70181D1D867EDA00B630DE /* BusinessWhiteListItem.m */,
+				EE92E3301DD016AB007553E2 /* BusinessHandlerTemplate.h */,
+				EE92E3311DD016AB007553E2 /* BusinessHandlerTemplate.m */,
+				EE70181E1D867EDA00B630DE /* ONEControlRoom.h */,
+				EE70181F1D867EDA00B630DE /* ONEControlRoom.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7017FE1D867E4400B630DE /* ONEControlRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7018161D867E4600B630DE /* Build configuration list for PBXNativeTarget "ONEControlRoom" */;
+			buildPhases = (
+				DF06A57B76098A3F5CB9C4B1 /* [CP] Check Pods Manifest.lock */,
+				EE7017FB1D867E4400B630DE /* Sources */,
+				EE7017FC1D867E4400B630DE /* Frameworks */,
+				EE7017FD1D867E4400B630DE /* Resources */,
+				CF5D2F35BB00B99977331803 /* [CP] Embed Pods Frameworks */,
+				9766B4CA14F8A79ECFEE00B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ONEControlRoom;
+			productName = ONEControlRoom;
+			productReference = EE7017FF1D867E4400B630DE /* ONEControlRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7017F71D867E4400B630DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hangzhou TaiXuan Network Technology Co., Ltd.";
+				TargetAttributes = {
+					EE7017FE1D867E4400B630DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7PDZD8W2SC;
+					};
+				};
+			};
+			buildConfigurationList = EE7017FA1D867E4400B630DE /* Build configuration list for PBXProject "ONEControlRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7017F61D867E4400B630DE;
+			productRefGroup = EE7018001D867E4400B630DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7017FE1D867E4400B630DE /* ONEControlRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7017FD1D867E4400B630DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7018121D867E4600B630DE /* LaunchScreen.storyboard in Resources */,
+				EE70180F1D867E4600B630DE /* Assets.xcassets in Resources */,
+				EE7018241D867EE600B630DE /* BusinessModuleWhiteList.plist in Resources */,
+				EE70180D1D867E4600B630DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9766B4CA14F8A79ECFEE00B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONEControlRoom/Pods-ONEControlRoom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5D2F35BB00B99977331803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONEControlRoom/Pods-ONEControlRoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF06A57B76098A3F5CB9C4B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7017FB1D867E4400B630DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70180A1D867E4600B630DE /* ViewController.m in Sources */,
+				EE7018071D867E4600B630DE /* AppDelegate.m in Sources */,
+				EE92E3321DD016AB007553E2 /* BusinessHandlerTemplate.m in Sources */,
+				EE7018201D867EDA00B630DE /* BusinessRegisterInfo.m in Sources */,
+				EE7018221D867EDA00B630DE /* ONEControlRoom.m in Sources */,
+				EE7018041D867E4500B630DE /* main.m in Sources */,
+				EE7018211D867EDA00B630DE /* BusinessWhiteListItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE70180B1D867E4600B630DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE70180C1D867E4600B630DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7018101D867E4600B630DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7018111D867E4600B630DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7018141D867E4600B630DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE7018151D867E4600B630DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7018171D867E4600B630DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503301B558F5784C193C5590 /* Pods-ONEControlRoom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PDZD8W2SC;
+				INFOPLIST_FILE = ONEControlRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happytai.ONEControlRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7018181D867E4600B630DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46142079635A2B64DAD502C /* Pods-ONEControlRoom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PDZD8W2SC;
+				INFOPLIST_FILE = ONEControlRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happytai.ONEControlRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7017FA1D867E4400B630DE /* Build configuration list for PBXProject "ONEControlRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7018141D867E4600B630DE /* Debug */,
+				EE7018151D867E4600B630DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7018161D867E4600B630DE /* Build configuration list for PBXNativeTarget "ONEControlRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7018171D867E4600B630DE /* Debug */,
+				EE7018181D867E4600B630DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7017F71D867E4400B630DE /* Project object */;
+}
